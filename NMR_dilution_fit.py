@@ -47,7 +47,7 @@ print()
 print("Data (x, y, yfit)")
 print("=================")
 for n in range(len(x)):
-    print("{}, {}, {}".format(x[n], y[n], y[n] + info["fvec"][n]))
+    print("{}, {}, {}".format(x[n], y[n], y[n] - info["fvec"][n]))
 print()
 
 print("Optimized parameters")
